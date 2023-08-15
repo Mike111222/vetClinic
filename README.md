@@ -21,7 +21,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - [vetClinic](#vetclinic)
   - [Getting Started](#getting-started)
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[your\_project\_name\] ](#-your_project_name-)
+- [📖 \[Vet Clinic\] ](#-vet-clinic-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -42,11 +42,10 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Vet Clinic] <a name="about-project"></a>
 
-> In this project, Iwill use a relational database to create the initial data structure for a vet clinic. I will create a table to store animals' information, insert some data into it, and query it.
 
-**[your_project__name]** is a...
+**[Vet Clinic]** In this project, I will use a relational database to create the initial data structure for a vet clinic. I will create a table to store animals' information, insert some data into it, and query it.
 
 ## 🛠 Built With <a name="built-with"></a>
 
