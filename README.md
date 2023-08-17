@@ -1,11 +1,11 @@
 # vetClinic
 
-> In this project, I  used a relational database PostgreSQL to create the initial data structure for a vet clinic. I created a table to store animals' information, insert some data into it, and query it. I also added some other tables according to the project requirements and populated them with data. I also wrote some queries to retrieve data from the database.
+ In this project, I  used a relational database PostgreSQL to create the initial data structure for a vet clinic. I created a table to store animals' information, insert some data into it, and query it. I also added some other tables according to the project requirements and populated them with data. I also wrote some queries to retrieve data from the database.
 
 
 ## Getting Started
 
-This repository includes files with plain SQL that can be used to recreate a database:
+This repository includes files with plain SQL that can be used to recreate a databa
 
 - Used [schema.sql](./schema.sql) to create all tables.
 - Used [data.sql](./data.sql) to populate tables with sample data.
@@ -37,6 +37,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ ](#-faq-)
   - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
@@ -76,7 +77,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+
 
 - **[Realtional Database used to Create Tables]**
 - **[Table of Animals is assigned a unique Primary Key]**
@@ -100,7 +101,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> You can either download the zip file or clone the repository to your computer.
+You can either download the zip file or clone the repository to your computer.
 
 To get a local copy up and running, follow these steps.
 
@@ -197,8 +198,6 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
 - [ ] **[Will add more table enteries]**
 - [ ] **[will use more querries]**
 - [ ] **[will make the table more complete]**
@@ -219,8 +218,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project or if it helped you, please give a ⭐️!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -229,22 +226,20 @@ If you like this project or if it helped you, please give a ⭐️!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
-
 I would like to thank Microverse for this opportunity and the knowledge that they are giving me and my code reviewers for their insightful feedback.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
-<!-- ## ❓ FAQ <a name="faq"></a>
+## ❓ FAQ <a name="faq"></a>
 
 
-- **[Question_1]**
+- **[Question_1: Can I use this project without installing PostgreSQL on my machine?]** 
 
-  - [Answer_1]
+  - [Answer_1: No, you need to install PostgreSQL on your machine to run this project.]
 
-- **[Question_2]**
+<!-- - **[Question_2]**
 
   - [Answer_2] -->
 
