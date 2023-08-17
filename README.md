@@ -1,14 +1,14 @@
 # vetClinic
 
-> In this project, I will use a relational database to create the initial data structure for a vet clinic. I will create a table to store animals' information, insert some data into it, and query it.
+> In this project, I  used a relational database PostgreSQL to create the initial data structure for a vet clinic. I created a table to store animals' information, insert some data into it, and query it. I also added some other tables according to the project requirements and populated them with data. I also wrote some queries to retrieve data from the database.
 
 
 ## Getting Started
 
 This repository includes files with plain SQL that can be used to recreate a database:
 
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
+- Used [schema.sql](./schema.sql) to create all tables.
+- Used [data.sql](./data.sql) to populate tables with sample data.
 - Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
 
 <a name="readme-top"></a>
@@ -37,7 +37,6 @@ This repository includes files with plain SQL that can be used to recreate a dat
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [❓ FAQ ](#-faq-)
   - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
@@ -45,13 +44,12 @@ This repository includes files with plain SQL that can be used to recreate a dat
 # 📖 [Vet Clinic] <a name="about-project"></a>
 
 
-**[Vet Clinic]** In this project, I will use a relational database to create the initial data structure for a vet clinic. I will create a table to store animals' information, insert some data into it, and query it.
+**[Vet Clinic]** In this project, I  used a relational database PostgreSQL to create the initial data structure for a vet clinic. I created a table to store animals' information, insert some data into it, and query it. I also added some other tables according to the project requirements and populated them with data. I also wrote some queries to retrieve data from the database.
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -80,9 +78,11 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 > Describe between 1-3 key features of the application.
 
-- **[Realtional Database used to Create Table]**
+- **[Realtional Database used to Create Tables]**
 - **[Table of Animals is assigned a unique Primary Key]**
 - **[The data of the animals table can be querried and displayed]**
+- **[Multiple tables created, querried and displayed]**
+- **[Join Tables created, querried using JOIN, GROUP BY and other sorts of queries]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -237,7 +237,7 @@ I would like to thank Microverse for this opportunity and the knowledge that the
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ <a name="faq"></a>
+<!-- ## ❓ FAQ <a name="faq"></a>
 
 
 - **[Question_1]**
@@ -246,7 +246,7 @@ I would like to thank Microverse for this opportunity and the knowledge that the
 
 - **[Question_2]**
 
-  - [Answer_2]
+  - [Answer_2] -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
