@@ -1,14 +1,14 @@
 # vetClinic
 
-> In this project, I will use a relational database to create the initial data structure for a vet clinic. I will create a table to store animals' information, insert some data into it, and query it.
+ In this project, I  used a relational database PostgreSQL to create the initial data structure for a vet clinic. I created a table to store animals' information, insert some data into it, and query it. I also added some other tables according to the project requirements and populated them with data. I also wrote some queries to retrieve data from the database.
 
 
 ## Getting Started
 
-This repository includes files with plain SQL that can be used to recreate a database:
+This repository includes files with plain SQL that can be used to recreate a databa
 
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
+- Used [schema.sql](./schema.sql) to create all tables.
+- Used [data.sql](./data.sql) to populate tables with sample data.
 - Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
 
 <a name="readme-top"></a>
@@ -45,13 +45,12 @@ This repository includes files with plain SQL that can be used to recreate a dat
 # 📖 [Vet Clinic] <a name="about-project"></a>
 
 
-**[Vet Clinic]** In this project, I will use a relational database to create the initial data structure for a vet clinic. I will create a table to store animals' information, insert some data into it, and query it.
+**[Vet Clinic]** In this project, I  used a relational database PostgreSQL to create the initial data structure for a vet clinic. I created a table to store animals' information, insert some data into it, and query it. I also added some other tables according to the project requirements and populated them with data. I also wrote some queries to retrieve data from the database.
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -78,11 +77,13 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
-- **[Realtional Database used to Create Table]**
+
+- **[Realtional Database used to Create Tables]**
 - **[Table of Animals is assigned a unique Primary Key]**
 - **[The data of the animals table can be querried and displayed]**
+- **[Multiple tables created, querried and displayed]**
+- **[Join Tables created, querried using JOIN, GROUP BY and other sorts of queries]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,7 +101,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> You can either download the zip file or clone the repository to your computer.
+You can either download the zip file or clone the repository to your computer.
 
 To get a local copy up and running, follow these steps.
 
@@ -197,8 +198,6 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
 - [ ] **[Will add more table enteries]**
 - [ ] **[will use more querries]**
 - [ ] **[will make the table more complete]**
@@ -219,8 +218,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project or if it helped you, please give a ⭐️!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -228,8 +225,6 @@ If you like this project or if it helped you, please give a ⭐️!
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-
 
 I would like to thank Microverse for this opportunity and the knowledge that they are giving me and my code reviewers for their insightful feedback.
 
@@ -240,13 +235,13 @@ I would like to thank Microverse for this opportunity and the knowledge that the
 ## ❓ FAQ <a name="faq"></a>
 
 
-- **[Question_1]**
+- **[Question_1: Can I use this project without installing PostgreSQL on my machine?]** 
 
-  - [Answer_1]
+  - [Answer_1: No, you need to install PostgreSQL on your machine to run this project.]
 
-- **[Question_2]**
+<!-- - **[Question_2]**
 
-  - [Answer_2]
+  - [Answer_2] -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -190,3 +190,76 @@ GROUP BY o.full_name
 ORDER BY animal_count DESC
 LIMIT 1;
 
+-- Who was the last animal seen by William Tatcher?
+SELECT a.name AS animal_name, v.name AS vet_name, vi.visit_date
+FROM visits vi
+JOIN animals a ON vi.animal_id = a.id
+JOIN vets v ON vi.vet_id = v.id
+WHERE vi.vet_id = 1
+ORDER BY vi.visit_date DESC
+LIMIT 1;
+
+-- How many different animals did Stephanie Mendez see?
+SELECT COUNT(DISTINCT animal_id) AS num_animals_seen
+FROM visits
+WHERE vet_id = 3;
+
+-- List all vets and their specialties, including vets with no specialties.
+SELECT v.name AS vet_name, s.name AS specialty_name
+FROM vets v
+LEFT JOIN specializations sp ON v.id = sp.vet_id
+LEFT JOIN species s ON sp.species_id = s.id;
+
+-- List all animals that visited Stephanie Mendez between April 1st and August 30th, 2020.
+SELECT a.name AS animal_name, vi.visit_date
+FROM visits vi
+JOIN animals a ON vi.animal_id = a.id
+JOIN vets v ON vi.vet_id = v.id
+WHERE v.name = 'Stephanie Mendez'
+  AND vi.visit_date BETWEEN '2020-04-01' AND '2020-08-30';
+
+-- What animal has the most visits to vets?
+SELECT a.name AS animal_name, COUNT(vi.animal_id) AS num_visits
+FROM visits vi
+JOIN animals a ON vi.animal_id = a.id
+GROUP BY a.name
+ORDER BY num_visits DESC
+LIMIT 1;
+
+-- Who was Maisy Smith's first visit?
+SELECT v.name AS vet_name, vi.visit_date
+FROM visits vi
+JOIN vets v ON vi.vet_id = v.id
+WHERE vi.animal_id IN (
+    SELECT id
+    FROM animals
+    WHERE owner_id = 2
+)
+ORDER BY vi.visit_date ASC
+LIMIT 1;
+
+-- Details for the most recent visit: animal information, vet information, and date of visit.
+SELECT a.name AS animal_name, v.name AS vet_name, vi.visit_date
+FROM visits vi
+JOIN animals a ON vi.animal_id = a.id
+JOIN vets v ON vi.vet_id = v.id
+ORDER BY vi.visit_date DESC
+LIMIT 1;
+
+-- How many visits were with a vet that did not specialize in that animal's species?
+SELECT COUNT(*) AS num_visits_without_specialization
+FROM visits vi
+JOIN animals a ON vi.animal_id = a.id
+JOIN vets v ON vi.vet_id = v.id
+LEFT JOIN specializations sp ON v.id = sp.vet_id AND a.species_id = sp.species_id
+WHERE sp.vet_id IS NULL;
+
+-- What specialty should Maisy Smith consider getting? Look for the species she gets the most.
+SELECT s.name AS most_common_species
+FROM visits vi
+JOIN animals a ON vi.animal_id = a.id
+JOIN species s ON a.species_id = s.id
+WHERE a.owner_id = 2
+GROUP BY s.name
+ORDER BY COUNT(*) DESC
+LIMIT 1;
